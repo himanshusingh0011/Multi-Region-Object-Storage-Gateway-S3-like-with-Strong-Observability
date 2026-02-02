@@ -1,9 +1,3 @@
-Perfect — here is your **FULL, DIRECTLY PASTABLE `README.md`** with **nothing removed**, **nothing shortened**, and the **Mermaid diagram fixed** so GitHub renders it correctly.
-You can copy-paste this **as-is** 👇
-
----
-
-````md
 # ☁️ Distributed S3-Compatible Object Storage Gateway
 
 ![Node.js](https://img.shields.io/badge/Node.js-v18-green?style=flat&logo=node.js)
