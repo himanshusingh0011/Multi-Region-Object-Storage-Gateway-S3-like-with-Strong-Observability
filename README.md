@@ -169,28 +169,3 @@ To demonstrate the system's fault tolerance, perform the "Kill Test":
 *Distributed Systems Enthusiast & Backend Engineer*
 
 ```
-
----
-
-### **2. Copy this into `.gitignore`**
-(Create this file in the root folder if you haven't yet. This keeps your repository clean).
-
-```gitignore
-# Dependencies
-node_modules/
-npm-debug.log
-
-# Environment variables
-.env
-
-# Storage Data (Do not commit the fake 'hard drives')
-storage_*/
-
-# Local Metadata Database
-metadata.json
-
-# OS Files
-.DS_Store
-Thumbs.db
-
-```
