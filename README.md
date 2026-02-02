@@ -1,8 +1,3 @@
-This `README.md` is formatted to be professional, clean, and GitHub-ready. It fixes the formatting issues in the text you pasted (like missing line breaks) and ensures the code blocks and diagrams render correctly.
-
-### **1. Copy this into `README.md**`
-
-```markdown
 # ☁️ Distributed S3-Compatible Object Storage Gateway
 
 ![Node.js](https://img.shields.io/badge/Node.js-v18-green?style=flat&logo=node.js)
