@@ -1,0 +1,1 @@
+# Multi-Region-Object-Storage-Gateway-S3-like-with-Strong-Observability-
