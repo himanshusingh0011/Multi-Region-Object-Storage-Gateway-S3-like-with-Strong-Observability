@@ -1,3 +1,7 @@
+This `README.md` is formatted to be professional, clean, and GitHub-ready. It fixes the formatting issues in the text you pasted (like missing line breaks) and ensures the code blocks and diagrams render correctly.
+
+### **1. Copy this into `README.md**`
+
 ```markdown
 # ☁️ Distributed S3-Compatible Object Storage Gateway
 
@@ -164,6 +168,34 @@ To demonstrate the system's fault tolerance, perform the "Kill Test":
 
 ---
 
+### Author
+
+**Himanshu Singh**
+*Distributed Systems Enthusiast & Backend Engineer*
+
 ```
+
+---
+
+### **2. Copy this into `.gitignore`**
+(Create this file in the root folder if you haven't yet. This keeps your repository clean).
+
+```gitignore
+# Dependencies
+node_modules/
+npm-debug.log
+
+# Environment variables
+.env
+
+# Storage Data (Do not commit the fake 'hard drives')
+storage_*/
+
+# Local Metadata Database
+metadata.json
+
+# OS Files
+.DS_Store
+Thumbs.db
 
 ```
