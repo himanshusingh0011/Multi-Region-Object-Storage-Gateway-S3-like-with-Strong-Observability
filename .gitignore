@@ -1,0 +1,23 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+
+# Environment variables
+.env
+
+# Storage Node Directories (We don't want to commit the actual files/data)
+storage_*/
+storage_3001/
+storage_3002/
+storage_3003/
+
+# Metadata Persistence (The "Database" file)
+metadata.json
+
+# Logs
+*.log
+logs/
+
+# OS generated files
+.DS_Store
+Thumbs.db

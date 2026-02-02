@@ -1,0 +1,22 @@
+{
+  "name": "s3-distributed-gateway",
+  "version": "1.0.0",
+  "description": "A distributed object storage gateway with quorum consistency and observability.",
+  "main": "gateway.js",
+  "scripts": {
+    "start-node-1": "cross-env PORT=3001 node data_node.js",
+    "start-node-2": "cross-env PORT=3002 node data_node.js",
+    "start-node-3": "cross-env PORT=3003 node data_node.js",
+    "start-gateway": "node gateway.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "body-parser": "^1.20.2",
+    "cross-env": "^10.1.0",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.0",
+    "prom-client": "^15.0.0",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0"
+  }
+}
